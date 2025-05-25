@@ -1,30 +1,86 @@
 <!DOCTYPE html>
-<html>
-       <head>
-        <title>Home</title>
-       <meta charset=utf-8/>
-       <style>
-              h1{clour:blue;
-                 text-transform:uppercase;
-                 font-size:48px;}
-              p{text-align:center; 
-                colour:pink;}
-              #oltech{colour:red;}
-              ol{list-style-type:a;}
-              ol>li:nth-child(2)}
-                 colour:green;}
-          </style>
-       </head>
-       <body>
-         <h1>Welcome To The World Of The Web</h1>
-         <p> Web development is an integral part of modern application developments
-         </p>
-         <h2> Web development technology</h2>
-         <ol id="ol tech">Technologies
-           <li>HTML5</li>
-           <li>CSS</LI>
-           <li>JavaScript</li>
-           <li>AJAX</li>
-         </ol>
-       </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickin'it - Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"><!-- External CSS file -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kickin'it</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Latest Releases</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Top Picks & Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Price Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4">Stay Ahead in the Sneaker Game</h1>
+            <p class="lead">Your top online source for high-end footwear in Botswana</p>
+            <a href="latest-releases.html" class="btn btn-primary btn-lg">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Featured Sneakers -->
+    <section class="container my-5">
+        <h2 class="text-center">Featured Sneakers</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Jordan 4.webp" class="card-img-top" alt="Sneaker 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Jordan 4</h5>
+                        <p class="card-text">A timeless classic with premium craftsmanship.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src=".vscode/New yeezy slides.jpg" class="card-img-top" alt="Sneaker 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Yeezy Slide</h5>
+                        <p class="card-text">The perfect blend of comfort and style.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Adidas campus.jpg" class="card-img-top" alt="Sneaker 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Campus</h5>
+                        <p class="card-text">Bold, stylish and designed for streetwear.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        <p>&copy; 2025 Kickin'it | All rights reserved</p>
+        <p>Follow us: 
+            <a href="https://www.Instagram.com/">Instagram</a> | 
+            <a href="https://www.Twitter.com/">Twitter</a> | 
+            <a href="https://www.Facebook.com/">Facebook</a>
+        </p>
+    </footer>
+</body>
 </html>
